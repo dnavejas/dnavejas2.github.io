@@ -3,26 +3,158 @@
 	<head>
 		<title>Danny Navejas 2</title>
 		<style>
-			a {
+			.noline {
 				text-decoration: none;
 				color:black;
 			}
+			ul {
+				list-style-type: none;
+			}
+			.header {
+				display: inline-block;
+				padding: 0px 20px;
+			}
+			.profile {
+				width:930px;
+				height: 730px;
+				padding-right: 70px;
+			}
+			.divpadding {
+				padding:70px 60px;
+			}
+			.button {
+				width: 313px;
+				color: #ffffff;
+				text-decoration: none;
+				background-color: #305B90;
+				text-align: center;
+				font-size: 16px;
+				line-height: 38px;
+				padding: 0px 20px;
+				border-radius: 5px;
+				display: inline-block;
+			}
+			.gray {
+				color:#999999;
+			}
+			.social {
+				height: 36px;
+				width: 36px;
+			}
+			.footer {
+				position: fixed;
+				bottom: 0;
+				height: 58px;
+				width: 100%;
+				background-color: rgba(255,255,255, 0.8);
+				padding-top: 20px;
+				padding-left: 20px;
+			}
+			.footerbutton {
+				position: fixed;
+				bottom: 0;
+				height: 38px;
+				width: 133px;
+				text-decoration: none;
+				background-color: #305B90;
+				text-align: center;
+				font-size: 16px;
+				line-height: 38px;
+				padding: 10px;
+				border-radius: 5px;
+				display: inline-block;
+				z-index: 2;
+				color: #FFFFFF;
+				vertical-align: baseline;
+			}
+
 		</style>
 	</head>
 	<body>
 		<div style="float:left;width:930px;">
-			<h3><a href="http://www.about.me">about.me</a></h3>
-		</div>
-		<div style="width:10px;">
+			<h3><a class="noline" href="http://www.about.me">about.me</a></h3>
 		</div>
 		<div>
-			<a href="http://about.me/user/getstarted">Get started for free</a>
+			<ul>
+				</li>
+				<li class="header">
+					<a class="noline" href="http://about.me/user/getstarted">Get started for free</a>
+				</li>
+				<li class="header">
+					<a class="noline" href="http://about.me/features">Features</a>
+				</li>
+				<li class="header">
+					<a class="noline" href="http://about.me/pricing">Pricing</a>
+				</li>
+				<li class="header">
+					<a class="noline" href="http://about.me/login">Log In</a>
+				</li>
+			</ul>
 		</div>
-		<div style="width:20px">
+		<div style="float:left;">
+			<img src="Profile.jpg" class="profile"/>
 		</div>
-		<div>
-			<a href="http://about.me/pricing">Pricing</a>
+		<div class="divpadding">
+			<h1>Danny Navejas</h1>
+			<h3>Sales Representative, Father, and DIYer in Elgin, TX</h3>
 		</div>
-		<img src="Profile.jpg" />
+		<a href="http://www.linkedin.com/dannynavejas"> 
+			<div class="button">
+				Visit my LinkedIn Profile
+			</div>
+		</a>
+		<p>
+			Sales Representative at <a href="http:www.capitolwright.com">Capitol Wright Distributing</a>. Father of two boys, Daniel-8 and Dylan-6. Currently enrolled <a href="http://inventive.io">inventine.io</a> full stack immersive bootcamp. I enjoy going to comedy shows, Dragon Ball, Bleach, watching movies, spending time with my sons, and playing games on my phone. 
+		</p>
+		<br>
+		<ul>
+			<li class="gray">
+				Work
+			</li>
+			<li>
+				Sales Representative at Capitol Wright Distributing
+			</li>
+			<br>
+			<li class="gray">
+				Education
+			</li>
+			<li>
+				Austin Community College
+			</li>
+			<li>
+				Inventive Academy
+			</li>
+		</ul>
+		<ul>
+			<li class="header">
+				<a href="http://www.twitter.com">
+					<img src="twitter.png" class="social" />
+				</a>
+			</li>
+			<li class="header">
+				<a href="http://www.facebook.com">
+					<img src="facebook.png" class="social" />
+				</a>
+			</li>
+			<li class="header">
+				<a href="http://www.linkedin.com/dannynavejas">
+					<img src="linkedin.png" class="social"/>
+				</a>
+			</li>
+			<li class="header">
+				<a href="http://github.com/dnavejas">
+					<img src="github.png" class="social" />
+				</a>
+			</li>
+		</ul>
+		<div class="footer">
+			Get a page and a domain with your name
+			<a href="http://www.about.me/welcome" class="noline">
+				<div class="footerbutton">
+					Get started for free
+				</div>
+			</a>
+		</div>
+		
 	</body>
 </html>
